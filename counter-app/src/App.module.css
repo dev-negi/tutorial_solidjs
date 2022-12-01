@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+.container {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  font-size: 3.5rem;
+  margin: 2rem;
+}
+.btnGroup {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+.btnGroup button {
+  background-color: rgb(124, 184, 237);
+  color: rgb(12, 15, 179);
+  height: 2rem;
+  width: 2rem;
+  margin: 0.5rem;
+  border-style: none;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
